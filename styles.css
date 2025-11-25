@@ -69,17 +69,42 @@ body, h1, h2, ul, p {
   font-size: 16px;
 }
 
-.informations, .quote, .call {
-  
+.informations, .quote {
+  padding: 128px 20%;
 }
 
 .informations {
   text-align: center;
-
+  padding-top: 48px;
 }
 
 .informations h2 {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
+}
+
+.info-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.info {
+  text-align: center;
+}
+
+.square {
+  border: 2px #3882F6 solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.text {
+  text-align: center;
+  color: gray;
 }
